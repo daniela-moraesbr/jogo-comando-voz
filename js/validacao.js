@@ -11,7 +11,7 @@ function verificaValorValido(chute){
     }
 
     if(numero == numeroSecreto){
-        document.body.innerHTML = `<h2>Parabéns! Você ganhou</h2>
+        document.body.innerHTML = `<h2>Parabéns! Você acertou</h2>
                                    <h4 style>O número secreto era <span id="destaca">${numeroSecreto}</span></h4>
                                    <button id="btnR">Reiniciar o jogo</button>`;
     }else if(numero > numeroSecreto){
